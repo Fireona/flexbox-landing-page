@@ -59,7 +59,7 @@ a {
     justify-content: space-between;
 }
 
-.title {
+.intro-title {
     font-size: 48px;
     font-weight: 900;
 }
@@ -77,6 +77,58 @@ a {
     border: 0;
     max-width: fit-content;
 }
+
+/* Content */
+
+.content {
+    text-align: center;
+    background-color: white;
+}
+
+.content-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.content-information {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 200px;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.thanks {
+    max-width: 200px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.quote-from {
+    width: 1300px;
+    text-align: end;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* End */
+
 
 /* nav, div {
     display: flex;
