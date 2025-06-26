@@ -99,7 +99,7 @@ a {
 .content-information {
     width: 1600px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 200px;
     flex-wrap: wrap;
     margin-bottom: 100px;
