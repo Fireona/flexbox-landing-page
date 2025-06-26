@@ -85,7 +85,8 @@ a {
 .content {
     text-align: center;
     background-color: white;
-    padding: 50px 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content-title {
@@ -96,8 +97,9 @@ a {
 }
 
 .content-information {
+    width: 1600px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 200px;
     flex-wrap: wrap;
     margin-bottom: 100px;
